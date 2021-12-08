@@ -1,5 +1,5 @@
 body{
-    background: url("https://github.com/AnastasiyaUzhenceva/PP/blob/main/img/enterbackground.png") no-repeat;
+    background: url("/PP/img/enterbackground.png") no-repeat;
     background-size: 100%;
     background-attachment: fixed;
 }
