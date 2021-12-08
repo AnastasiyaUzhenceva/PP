@@ -1,5 +1,5 @@
 body{
-    background: url(/img/enterbackground.png) no-repeat;
+    background: url('/img/enterbackground.png') no-repeat;
     background-size: 100%;
     background-attachment: fixed;
 }
