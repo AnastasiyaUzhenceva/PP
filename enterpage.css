@@ -1,0 +1,55 @@
+body{
+    background: url("/PP/img/enterbackground1.png") no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.content{
+    margin-top: 15%;
+    margin-left: 25%;
+    color: rgb(28, 42, 105);
+    font-family: Calibri;
+    font-size: 400%;
+    vertical-align: middle;
+    align-items: center;
+    flex-direction: column;
+}
+
+.enterdivs{
+ height: 60%;
+ width: 100%;
+ display: flex;
+ margin-top: 5%;
+}
+
+.enteradmin{
+    height: 60%;
+    width: 20%;
+    background-color: rgb(49, 67, 150);
+    display: inline-flex;
+    margin-left: 25%;
+    -webkit-justify-content: center;
+    justify-content: center;
+    color: rgb(205, 205, 205);
+    font-family: Calibri;
+    font-size: 180%;
+    padding: 1% 0;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.enteruser{
+    height: 60%;
+    width: 20%;
+    background-color: rgb(49, 67, 150);
+    display: inline-flex;
+    margin-left: 10%;
+    -webkit-justify-content: center;
+    justify-content: center;
+    color: rgb(205, 205, 205);
+    font-family: Calibri;
+    font-size: 180%;
+    padding: 1% 0;
+    border-radius: 5px;
+    text-decoration: none;
+}
