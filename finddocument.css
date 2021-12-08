@@ -1,0 +1,39 @@
+.search{
+    background-color: rgb(147, 169, 213);
+    width: 21%;
+    height: 45px;
+    margin: 1% 27%;
+    font-size: 120%;
+    border-radius: 11px;
+    display: inline-block;
+}
+
+.classselect{
+    background-color: rgb(141, 207, 244);
+    width: 20%;
+    height: 52px;
+    margin: 0% -26%;
+    font-family: Gabriola;
+    font-size: 180%;
+    border-radius: 11px;
+    display: inline-block;
+    text-align: center;
+}
+
+.findp{
+    white-space: nowrap;
+}
+
+.find{
+    background-color: rgb(6, 105, 178);
+    width: 20%;
+    height: 50px;
+    margin: 0% 40%;
+    font-size: 120%;
+    border-radius: 11px;
+    display: inline-block;
+    border: solid black 2px;
+    color: white;
+    font-family: Gabriola;
+    font-size: 180%;
+}

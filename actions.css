@@ -1,0 +1,35 @@
+.header{
+color: rgb(49, 67, 150);
+font-size: 350%;
+font-family: Gabriola;
+text-align: center;
+margin-top: 5%;
+}
+
+.header1{
+    color: rgb(49, 67, 150);
+    font-size: 350%;
+    font-family: Gabriola;
+    text-align: center;
+    margin-top: -2%;
+    }
+
+.actions{
+    width: 100%;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+.action{
+    width: 25%;
+    font-size: 200%;
+    font-family: Gabriola;
+    background-color: rgb(120, 195, 225);
+    color: rgb(28, 42, 105);
+    text-decoration: none;
+    margin: 1% 37.5%;
+    padding: 0.5% 0.1%;
+    text-align: center;
+    border-radius: 15px;
+}
