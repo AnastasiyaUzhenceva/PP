@@ -27,10 +27,10 @@
         <input class="search" type="text" placeholder="Например: Приказ об образовании" />
         <select class="classselect"><option>Выберите класс</option></select>
 </p>
-<div><button onclick = '$fileId = '1xVC7IORZM-z0e44v47YhfaTXBnQGU7UU'
+<div><button onclick = '<? $fileId = '1xVC7IORZM-z0e44v47YhfaTXBnQGU7UU'
 $response = $driveService->files->export($fileId, 'application/pdf', array(
     'alt' => 'media'));
-$content = $response->getBody()->getContents();' class="find">Найти</button></div>
+$content = $response->getBody()->getContents();?>' class="find">Найти</button></div>
 
 </body>
 </html>
