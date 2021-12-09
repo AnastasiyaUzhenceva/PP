@@ -27,12 +27,14 @@
         <input class="search" type="text" placeholder="Например: Приказ об образовании" />
         <select class="classselect"><option>Выберите класс</option></select>
 </p>
-<div><button onclick = '<script language="php">
-   echo ("$fileId = '0BwwA4oUTeiV1UVNwOHItT0xfa2M';
-$response = $driveService->files->get($fileId, array(
-    'alt' => 'media'));
-$content = $response->getBody()->getContents();");
-</script>' class="find">Найти</button></div>
+<div><button onclick = 'file_id = '0BwwA4oUTeiV1UVNwOHItT0xfa2M'
+request = drive_service.files().get_media(fileId=file_id)
+fh = io.BytesIO()
+downloader = MediaIoBaseDownload(fh, request)
+done = False
+while done is False:
+    status, done = downloader.next_chunk()
+    print "Download %d%%." % int(status.progress() * 100)' class="find">Найти</button></div>
 
 </body>
 </html>
