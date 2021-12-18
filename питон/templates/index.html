@@ -1,0 +1,41 @@
+    <!DOCTYPE html> 
+    <html lang='en'> 
+    	<head> 
+    		<title>Flask App</title>
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.7.1/min/dropzone.min.css">
+    		<style type="text/css"> 
+    			* { 
+    				font-family: sans-serif; 
+    			} 
+    		</style> 
+    	</head> 
+    	<body>
+
+
+			<h1>File Upload</h1>
+    		<form action="{{ url_for('upload_files') }}" class="dropzone"></form>
+    		<script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.7.1/min/dropzone.min.js"></script>
+
+
+    		<form method="post" id="form">
+    			<button>Post</button> 
+    		</form> 
+    		<p id="square"></p> 
+    		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
+    		<script> 
+    			$('#form').on('submit', function(e){ 
+    				var number = $('#num').val(); 
+    				e.preventDefault(); 
+    				$.ajax({ 
+    					url: 'http://127.0.0.1:5000/square/', 
+    					data: {'number': number}, 
+    					method: 'POST', 
+    					success: function(data) { 
+    						$('#num').val(''); 
+    						$('#square').html(data['square'])
+    					} 
+    				}); 
+    			}); 
+    		</script> 
+    	</body> 
+    </html> 
